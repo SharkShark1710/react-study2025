@@ -1,5 +1,8 @@
 import './App.css'
+import BattleNumber from './components/BattleNumber'
 import Count from './components/Count'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
 import MemberInfo from './components/MemberInfo'
 import Menubox from './components/Menubox'
 
@@ -46,8 +49,16 @@ function App() {
       <MemberInfo teamNm={"한화 이글스"} name={"류현진"}/>
       </div> */}
 
-      <Count/>
+      {/* state 실습 */}
+      {/* <Count/> */}
       
+      {/* state 실습2 */}
+      {/* <LikeCount/> */}
+      
+      {/* state 실습3 */}
+      {/* <LikeCount2/> */}
+
+      <BattleNumber/>
 
     </>
   )
